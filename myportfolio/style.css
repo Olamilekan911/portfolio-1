@@ -1,0 +1,155 @@
+*{  
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    
+    color: black;
+    font-family: "Poppins", sans-serif;
+
+}
+.navbar{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 100000;
+    display: flex;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 15%;
+    height: 60px;
+    width: 1000px;
+}
+.nav-logo a{
+    color: white;
+}
+span{
+    color: indianred ;
+}
+.main{
+    margin-top: 250px;
+    background-color: black;
+    height: 60px;
+    gap:30px;    
+    padding: 220px;
+    border: 3px border white;
+}
+.main2{
+    margin-top: -150px;
+    display: flex;
+    justify-items: center;
+    gap: 60px;
+}
+.sub-main img{
+    border-radius: 13px;
+
+}
+.nav-logo{
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    
+    gap: 80px; 
+}
+.nav-item ul{
+    display: flex;
+    gap: 18px;
+    margin-right: 350px;
+    color: white;
+}
+.btn{
+    gap:90px;
+    margin: 20px;
+    border-radius: 19px;
+    border: none;
+    padding: 10px;
+    background-color: indianred;
+    color: white;
+}
+.nav-item a{
+    display: flex;
+    color: white;
+    font-size: 16px;
+
+}
+.nav-item a:hover{
+    color:indianred;
+}
+img{
+    width: 300px;
+    height: 300px;
+    border-radius: 13px;
+}
+.section{
+    align-items: center;
+    justify-content: center;
+    margin-top: 200px;
+    margin-left: 100px;
+   
+}
+.serve{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.service h2{
+   text-align: center;
+}
+.sect{
+    width: 250px;
+    border: 1px solid black;
+    margin: 20px;
+    letter-spacing: 1px;
+    text-align: center;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 10px black;
+}
+.sect.btn a:hover{
+    background-color: transparent;
+    color: indianred ;
+}
+
+.latar h2{
+    text-align: center;
+    color: white;
+    padding: 40px;
+   
+}
+.latar{
+    background-color: black;
+    min-height: 300px;
+}
+.lasa{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    gap: 30px;
+}
+.lasa2{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    gap: 30px;
+
+}
+.cont{
+    text-align: center;
+    padding: 30px;
+    font-size: 20px;
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 18px;
+}
+
